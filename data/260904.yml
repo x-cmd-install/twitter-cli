@@ -7,7 +7,7 @@ about:
   head: 7c634e0
   archived: false
   latestVersion: 
-  collectedAt: 2026-09-04T19:26:10Z
+  collectedAt: 2026-09-04T21:05:50Z
 timeline:
   created: 2026-03-05
   lastCommit: 2026-05-07
@@ -80,5 +80,38 @@ total:
   openIssue: 20
   commit: 136
 ---
+path: /home/runner/.x-repo/github.com/public-clis/twitter-cli
+collectedAt: 2026-09-04T21:05:51Z
+loc:
+  Python:
+    code: 7460
+    comments: 287
+    blanks: 1614
+    files: 32
+  Json:
+    code: 572
+    comments: 0
+    blanks: 0
+    files: 5
+  Toml:
+    code: 59
+    comments: 0
+    blanks: 8
+    files: 1
+  Yaml:
+    code: 19
+    comments: 0
+    blanks: 2
+    files: 1
+  Markdown:
+    code: 0
+    comments: 509
+    blanks: 226
+    files: 4
+total:
+  code: 8386
+  comments: 849
+  blanks: 1884
+  files: 43
 ---
 
