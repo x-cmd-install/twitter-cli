@@ -1,0 +1,12 @@
+- repo: aur
+  srcname: twitter-cli
+  binname: twitter-cli
+  visiblename: twitter-cli
+  version: 1.0.0
+  origversion: 1.0.0-3
+  status: unique
+  summary: Tweet without going to twitter.com
+  maintainers:
+    - gitahi@aur
+  licenses:
+    - MIT
