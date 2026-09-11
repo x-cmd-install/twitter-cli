@@ -7,7 +7,7 @@ about:
   latestVersion: ""
   latestRelease: ""
   latestPrerelease: ""
-  collectedAt: 2026-09-11T06:00:03Z
+  collectedAt: 2026-09-11T18:55:54Z
 timeline:
   created: 2026-03-05
   lastCommit: 2026-05-07
@@ -15,7 +15,7 @@ timeline:
   lastRelease: 
   lastPrerelease: 
 popularity:
-  star: 2909
+  star: 2911
   watcher: 10
   fork: 276
   release: 0
@@ -83,7 +83,7 @@ total:
   commit: 136
 ---
 path: /home/runner/.x-repo/github.com/public-clis/twitter-cli
-collectedAt: 2026-09-11T06:00:03Z
+collectedAt: 2026-09-11T18:55:55Z
 loc:
   Python:
     code: 7460
