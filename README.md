@@ -4,7 +4,7 @@
 
 A CLI for Twitter/X — feed, bookmarks, and user timeline in terminal
 
-![twitter-cli](https://repo.x-cmd.io/twitter-cli.svg)
+[![x-cmd/install — twitter-cli Code Quality Monitoring Repo Card](https://repo.x-cmd.io/twitter-cli.svg)](https://x-cmd.com/install/twitter-cli)
 
 ## Install
 
@@ -31,7 +31,7 @@ Total: **8,110** lines of code across **43** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 2,927 · **Forks**: 278 · **Open issues**: 37 · **Contributors**: 12
+- **Stars**: 2,928 · **Forks**: 279 · **Open issues**: 37 · **Contributors**: 12
 
 ## Totals (cumulative)
 
@@ -41,12 +41,12 @@ Total: **8,110** lines of code across **43** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-19 | 0 | 0 | 3 | 0 | 1 | 0 |
-| last60d | 2026-07-20 | 0 | 0 | 13 | 0 | 4 | 0 |
-| 90d | 2026-06-20 | 0 | 0 | 14 | 1 | 5 | 0 |
-| last180d | 2026-03-22 | 0 | 3 | 20 | 2 | 14 | 3 |
-| 360d | 2025-09-23 | 0 | 15 | 21 | 17 | 20 | 131 |
-| last720d | 2024-09-28 | 0 | 15 | 21 | 17 | 20 | 136 |
+| 30d | 2026-08-21 | 0 | 0 | 3 | 0 | 1 | 0 |
+| last60d | 2026-07-22 | 0 | 0 | 13 | 0 | 4 | 0 |
+| 90d | 2026-06-22 | 0 | 0 | 14 | 1 | 5 | 0 |
+| last180d | 2026-03-24 | 0 | 3 | 20 | 2 | 14 | 3 |
+| 360d | 2025-09-25 | 0 | 15 | 21 | 17 | 20 | 131 |
+| last720d | 2024-09-30 | 0 | 15 | 21 | 17 | 20 | 136 |
 
 ## Improve this data
 
@@ -57,4 +57,4 @@ Install metadata for twitter-cli lives in the [x-cmd/install](https://github.com
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260918.yml` · 2026-09-18T06:18:47Z._
+_Snapshot: `data/card/260920.yml` · 2026-09-20T06:01:26Z._
