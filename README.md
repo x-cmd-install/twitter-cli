@@ -31,22 +31,22 @@ Total: **8,110** lines of code across **43** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 2,931 · **Forks**: 280 · **Open issues**: 37 · **Contributors**: 12
+- **Stars**: 2,933 · **Forks**: 283 · **Open issues**: 37 · **Contributors**: 12
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 15 · **Open PRs**: 21 · **Closed issues**: 17 · **Open issues**: 20 · **Commits**: 136
+- **Releases**: 0 · **Merged PRs**: 15 · **Open PRs**: 23 · **Closed issues**: 17 · **Open issues**: 20 · **Commits**: 136
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-22 | 0 | 0 | 3 | 0 | 1 | 0 |
-| last60d | 2026-07-23 | 0 | 0 | 13 | 0 | 4 | 0 |
-| 90d | 2026-06-23 | 0 | 0 | 14 | 0 | 5 | 0 |
-| last180d | 2026-03-25 | 0 | 3 | 20 | 2 | 14 | 3 |
-| 360d | 2025-09-26 | 0 | 15 | 21 | 17 | 20 | 131 |
-| last720d | 2024-10-01 | 0 | 15 | 21 | 17 | 20 | 136 |
+| 30d | 2026-08-23 | 0 | 0 | 5 | 0 | 1 | 0 |
+| last60d | 2026-07-24 | 0 | 0 | 15 | 0 | 4 | 0 |
+| 90d | 2026-06-24 | 0 | 0 | 16 | 0 | 5 | 0 |
+| last180d | 2026-03-26 | 0 | 3 | 22 | 2 | 14 | 3 |
+| 360d | 2025-09-27 | 0 | 15 | 23 | 17 | 20 | 131 |
+| last720d | 2024-10-02 | 0 | 15 | 23 | 17 | 20 | 136 |
 
 ## Improve this data
 
@@ -57,4 +57,4 @@ Install metadata for twitter-cli lives in the [x-cmd/install](https://github.com
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260921.yml` · 2026-09-21T06:08:33Z._
+_Snapshot: `data/card/260922.yml` · 2026-09-22T06:17:02Z._
