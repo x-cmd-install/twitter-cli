@@ -7,7 +7,7 @@ about:
   latestVersion: ""
   latestRelease: ""
   latestPrerelease: ""
-  collectedAt: 2026-10-30T06:45:04Z
+  collectedAt: 2026-10-31T06:35:20Z
 timeline:
   created: 2026-03-05
   lastCommit: 2026-05-07
@@ -15,7 +15,7 @@ timeline:
   lastRelease: 
   lastPrerelease: 
 popularity:
-  star: 3009
+  star: 3007
   watcher: 11
   fork: 296
   release: 0
@@ -27,7 +27,7 @@ language:
 totalBytes: 350772
 recent:
   last30d:
-    since: 2026-09-30
+    since: 2026-10-01
     release: 0
     mergedPR: 0
     openPR: 5
@@ -35,7 +35,7 @@ recent:
     openIssue: 1
     commit: 0
   last60d:
-    since: 2026-08-31
+    since: 2026-09-01
     release: 0
     mergedPR: 0
     openPR: 10
@@ -43,7 +43,7 @@ recent:
     openIssue: 1
     commit: 0
   last90d:
-    since: 2026-08-01
+    since: 2026-08-02
     release: 0
     mergedPR: 0
     openPR: 16
@@ -51,7 +51,7 @@ recent:
     openIssue: 2
     commit: 0
   last180d:
-    since: 2026-05-03
+    since: 2026-05-04
     release: 0
     mergedPR: 0
     openPR: 28
@@ -59,7 +59,7 @@ recent:
     openIssue: 10
     commit: 1
   last360d:
-    since: 2025-11-04
+    since: 2025-11-05
     release: 0
     mergedPR: 15
     openPR: 29
@@ -67,7 +67,7 @@ recent:
     openIssue: 21
     commit: 131
   last720d:
-    since: 2024-11-09
+    since: 2024-11-10
     release: 0
     mergedPR: 15
     openPR: 29
@@ -83,7 +83,7 @@ total:
   commit: 136
 ---
 path: /home/runner/.x-repo/github.com/public-clis/twitter-cli
-collectedAt: 2026-10-30T06:45:05Z
+collectedAt: 2026-10-31T06:35:22Z
 loc:
   Python:
     code: 7460
