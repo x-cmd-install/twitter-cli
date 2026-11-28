@@ -2,94 +2,94 @@ about:
   description: "A CLI for Twitter/X — feed, bookmarks, and user timeline in terminal"
   license: Apache-2.0
   homepage: 
-  head: 7c634e0
+  head: c584483
   archived: false
-  latestVersion: ""
-  latestRelease: ""
+  latestVersion: "v0.9.0"
+  latestRelease: "v0.9.0"
   latestPrerelease: ""
-  collectedAt: 2026-11-27T10:04:42Z
+  collectedAt: 2026-11-28T08:32:10Z
 timeline:
   created: 2026-03-05
-  lastCommit: 2026-05-07
-  lastVersion: 
-  lastRelease: 
+  lastCommit: 2026-11-28
+  lastVersion: 2026-11-28
+  lastRelease: 2026-11-28
   lastPrerelease: 
 popularity:
-  star: 3035
+  star: 3036
   watcher: 11
   fork: 303
-  release: 0
-  contributor: 12
-  pullRequest: 64
+  release: 1
+  contributor: 31
+  pullRequest: 65
   issue: 40
 language:
   Python: 350772
 totalBytes: 350772
 recent:
   last30d:
-    since: 2026-10-28
-    release: 0
-    mergedPR: 0
-    openPR: 4
-    closedIssue: 0
-    openIssue: 1
-    commit: 0
+    since: 2026-10-29
+    release: 1
+    mergedPR: 1
+    openPR: 3
+    closedIssue: 1
+    openIssue: 0
+    commit: 9
   last60d:
-    since: 2026-09-28
-    release: 0
-    mergedPR: 0
-    openPR: 9
-    closedIssue: 1
-    openIssue: 2
-    commit: 0
+    since: 2026-09-29
+    release: 1
+    mergedPR: 1
+    openPR: 8
+    closedIssue: 3
+    openIssue: 0
+    commit: 9
   last90d:
-    since: 2026-08-29
-    release: 0
-    mergedPR: 0
+    since: 2026-08-30
+    release: 1
+    mergedPR: 1
     openPR: 13
-    closedIssue: 1
-    openIssue: 2
-    commit: 0
+    closedIssue: 3
+    openIssue: 0
+    commit: 9
   last180d:
-    since: 2026-05-31
-    release: 0
-    mergedPR: 0
+    since: 2026-06-01
+    release: 1
+    mergedPR: 1
     openPR: 28
-    closedIssue: 2
-    openIssue: 8
-    commit: 0
+    closedIssue: 8
+    openIssue: 2
+    commit: 9
   last360d:
-    since: 2025-12-02
-    release: 0
-    mergedPR: 15
+    since: 2025-12-03
+    release: 1
+    mergedPR: 16
     openPR: 32
-    closedIssue: 18
-    openIssue: 22
-    commit: 131
+    closedIssue: 34
+    openIssue: 6
+    commit: 140
   last720d:
-    since: 2024-12-07
-    release: 0
-    mergedPR: 15
+    since: 2024-12-08
+    release: 1
+    mergedPR: 16
     openPR: 32
-    closedIssue: 18
-    openIssue: 22
-    commit: 136
+    closedIssue: 34
+    openIssue: 6
+    commit: 146
 total:
-  release: 0
-  mergedPR: 15
+  release: 1
+  mergedPR: 16
   openPR: 32
-  closedIssue: 18
-  openIssue: 22
-  commit: 136
+  closedIssue: 34
+  openIssue: 6
+  commit: 146
 ---
 path: /home/runner/.x-repo/github.com/public-clis/twitter-cli
-collectedAt: 2026-11-27T10:04:42Z
+collectedAt: 2026-11-28T08:32:11Z
 loc:
   Python:
-    code: 7460
-    comments: 287
-    blanks: 1614
-    files: 32
+    code: 11500
+    comments: 368
+    blanks: 2335
+    files: 44
   Json:
     code: 572
     comments: 0
@@ -97,23 +97,25 @@ loc:
     files: 5
   Toml:
     code: 59
-    comments: 0
+    comments: 3
     blanks: 8
     files: 1
   Yaml:
-    code: 19
+    code: 21
     comments: 0
-    blanks: 2
+    blanks: 3
     files: 1
   Markdown:
     code: 0
-    comments: 509
-    blanks: 226
+    comments: 552
+    blanks: 240
     files: 4
 total:
-  code: 8386
-  comments: 849
-  blanks: 1884
-  files: 43
+  code: 12485
+  comments: 980
+  blanks: 2627
+  files: 55
 ---
 
+---
+{"id":461405259,"author":{"login":"jackwener","id":30525741,"node_id":"MDQ6VXNlcjMwNTI1NzQx","gravatar_id":"","type":"User","user_view_type":"public","site_admin":false},"node_id":"RE_kwDORe9Fcs4bgHxL","tag_name":"v0.9.0","target_commitish":"main","name":"v0.9.0","draft":false,"immutable":false,"prerelease":false,"created_at":"2026-11-28T08:15:25Z","updated_at":"2026-11-28T08:17:05Z","published_at":"2026-11-28T08:17:05Z","assets":[],"body":"## Highlights\n\nMajor release consolidating 30 community PRs, 21 issue fixes, and x.com resilience updates (#106), plus April 2026 API schema and cursor pagination improvements since `v0.8.5`.\n\n### X.com Resilience & Security\n- **ClientTransaction bootstrap fix**: Authenticates against `https://x.com/home` with fallback to unauthenticated `https://x.com/i/jf/` (working around X's stripped `x-web` shell) without leaking session cookies to CDN script fetches.\n- **Query ID resilience**: Refreshed `FALLBACK_QUERY_IDS`, added 24h owner-only disk cache (`~/.twitter-cli/query_ids_cache.json`), `TWITTER_QID_<OP>` overrides, and automatic retry on stale query IDs (`HTTP 404/422`, `Query: Unspecified`, `PersistedQueryNotFound`).\n- **Fail-closed unsigned mutations**: Blocks unsigned GraphQL `POST` mutations unless `TWITTER_ALLOW_UNSIGNED=1` is set; prefers `chrome136` TLS impersonation.\n- **Dependencies & permissions**: Upgraded `curl_cffi>=0.15.0` (fixes GHSA-qw2m-4pqf-rmpp / CVE-2026-33752) and `xclienttransaction>=1.0.3`; enforced owner-only (`0o700`/`0o600`) atomic cache files.\n\n### Authentication\n- Added `TWITTER_COOKIE_STRING` env var for full browser `Cookie:` headers.\n- Added `TWITTER_CHROMIUM_USER_DATA_DIR`, Vivaldi, and Zen browser cookie extraction (macOS / Linux / Flatpak / Windows).\n- Improved Windows Chrome/Edge >=127 App-Bound Encryption diagnostics.\n\n### CLI, Config & Publishing\n- **Video & long-form publishing**: Chunked video upload (`--video` / `-V` on `post`, `reply`, `quote`, MP4/MOV/WebM up to 512 MB), twitter-text v3 weighted length + automatic `CreateNoteTweet` routing for Premium long-form posts (>280 weighted chars), and `twitter article-publish <file.md> --title ... [--draft]`.\n- **New commands**: `twitter news`, `twitter doctor [--refresh]`, and `twitter completion bash|zsh|fish`.\n- **Pagination, time & config**: Cursor pagination for feed (#49), lists (#56), tweets, and bookmarks; `--max` honors explicit values up to 10,000; `--time relative|absolute|iso`; user config at `~/.twitter-cli/config.yaml`.\n\n### Rich Metadata, Articles & Python API\n- **Python library API**: Public exports from `twitter_cli` (`TwitterClient`, `get_cookies`, `load_config`, `filter_tweets`, models, exceptions, serializers).\n- **Richer tweet/user/media data**: Author follower/following counts, `viewerFollowing`/`viewerFollowedBy`, sensitivity/content warnings, media `posterUrl`/`altText`/`durationMs`, thread reply/conversation IDs, numeric user ID routing (`UserByRestId`), and `TweetDetail` focal-tweet validation.\n- **Articles**: Inline hyperlinks (#44), inline images (#38), atomic markdown blocks (#37), `MARKDOWN`/`DIVIDER`/`TWEET` blocks, and subscriber-only tweet detection (#33).\n\n**Full Changelog**: https://github.com/public-clis/twitter-cli/compare/v0.8.5...v0.9.0"}
